@@ -1,0 +1,3061 @@
+[
+  {
+    "id": "TEL-SIM-001",
+    "timestamp": "2026-08-30T18:50:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:00:00",
+    "siteId": "PSR-SHACKLETON-P01",
+    "siteName": "Shackleton Crater Rim Crest (Sample #1)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.7,
+      "lon": 110.0,
+      "depth_m": 0.59,
+      "elevation_m": 1464,
+      "slope_deg": 9.9
+    },
+    "env": {
+      "surface_temp_k": 126.7,
+      "subsurface_temp_k": 122.9,
+      "radiation_dose_rate_msv_hr": 0.0406,
+      "accumulated_radiation_msv": 0.153,
+      "cosmic_ray_flux_cpm": 32,
+      "atmospheric_pressure_pa": 2.52e-09,
+      "dust_particulate_density_pm3": 2258,
+      "spe_intensity_protons_cm2_sr": 0.2,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 2.89,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 25,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.65,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 2.89,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.09,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.99,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 145,
+      "bit_temp_k": 148.5,
+      "drill_depth_cm": 59,
+      "torque_nm": 5.1,
+      "penetration_rate_mm_s": 2.1,
+      "energy_joules": 2138,
+      "drill_energy_to_yield_ratio": 24.3,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 88.0,
+      "nh3_ppm": 0.3,
+      "h2s_ppm": 0.1,
+      "co2_ppm": 29.5,
+      "co_ppm": 18.5,
+      "ch4_ppm": 3.9,
+      "so2_ppm": 0.1,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 1100,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 88.0
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 42,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.3
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 15,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.1
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 531,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 29.5
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 407,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 18.5
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 96.7,
+      "o2_pressure_kpa": 29.6,
+      "co2_scrubber_remaining_hrs": 7.7,
+      "battery_remaining_percent": 92.0,
+      "thermal_coolant_water_kg": 4.2,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-002",
+    "timestamp": "2026-08-30T18:55:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:05:00",
+    "siteId": "PSR-SHACKLETON-P02",
+    "siteName": "Shackleton Crater Rim Crest (Sample #2)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.6964,
+      "lon": 110.1387,
+      "depth_m": 0.75,
+      "elevation_m": 1438,
+      "slope_deg": 4.3
+    },
+    "env": {
+      "surface_temp_k": 122.0,
+      "subsurface_temp_k": 118.7,
+      "radiation_dose_rate_msv_hr": 0.0409,
+      "accumulated_radiation_msv": 0.157,
+      "cosmic_ray_flux_cpm": 28,
+      "atmospheric_pressure_pa": 1.02e-09,
+      "dust_particulate_density_pm3": 2494,
+      "spe_intensity_protons_cm2_sr": 0.3,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 2.89,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 13,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.75,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 2.89,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.09,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 5.04,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 115,
+      "bit_temp_k": 148.7,
+      "drill_depth_cm": 75,
+      "torque_nm": 4.0,
+      "penetration_rate_mm_s": 2.2,
+      "energy_joules": 2156,
+      "drill_energy_to_yield_ratio": 28.5,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 75.7,
+      "nh3_ppm": 0.3,
+      "h2s_ppm": 0.1,
+      "co2_ppm": 20.1,
+      "co_ppm": 14.0,
+      "ch4_ppm": 2.1,
+      "so2_ppm": 0.1,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 946,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 75.7
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 42,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.3
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 15,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.1
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 361,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 20.1
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 308,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 14.0
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 94.7,
+      "o2_pressure_kpa": 29.5,
+      "co2_scrubber_remaining_hrs": 7.6,
+      "battery_remaining_percent": 90.4,
+      "thermal_coolant_water_kg": 4.1,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-003",
+    "timestamp": "2026-08-30T19:00:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:10:00",
+    "siteId": "PSR-SHACKLETON-P03",
+    "siteName": "Shackleton Crater Rim Crest (Sample #3)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.6921,
+      "lon": 110.2204,
+      "depth_m": 0.48,
+      "elevation_m": 1428,
+      "slope_deg": 5.5
+    },
+    "env": {
+      "surface_temp_k": 122.5,
+      "subsurface_temp_k": 117.7,
+      "radiation_dose_rate_msv_hr": 0.0412,
+      "accumulated_radiation_msv": 0.16,
+      "cosmic_ray_flux_cpm": 32,
+      "atmospheric_pressure_pa": 2.03e-09,
+      "dust_particulate_density_pm3": 1983,
+      "spe_intensity_protons_cm2_sr": 0.4,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 2.89,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 19,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.62,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 2.89,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.09,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.71,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "IDLE",
+      "resistance_n": 169,
+      "bit_temp_k": 142.7,
+      "drill_depth_cm": 48,
+      "torque_nm": 5.9,
+      "penetration_rate_mm_s": 2.0,
+      "energy_joules": 2028,
+      "drill_energy_to_yield_ratio": 24.9,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 81.3,
+      "nh3_ppm": 0.2,
+      "h2s_ppm": 0.1,
+      "co2_ppm": 22.3,
+      "co_ppm": 14.7,
+      "ch4_ppm": 4.4,
+      "so2_ppm": 0.1,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 1016,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 81.3
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 28,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.2
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 15,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.1
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 401,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 22.3
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 323,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 14.7
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 92.9,
+      "o2_pressure_kpa": 29.5,
+      "co2_scrubber_remaining_hrs": 7.5,
+      "battery_remaining_percent": 88.7,
+      "thermal_coolant_water_kg": 4.0,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-004",
+    "timestamp": "2026-08-30T19:05:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:15:00",
+    "siteId": "PSR-SHACKLETON-P04",
+    "siteName": "Shackleton Crater Rim Crest (Sample #4)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.6872,
+      "lon": 110.1392,
+      "depth_m": 0.6,
+      "elevation_m": 1474,
+      "slope_deg": 5.2
+    },
+    "env": {
+      "surface_temp_k": 129.3,
+      "subsurface_temp_k": 127.1,
+      "radiation_dose_rate_msv_hr": 0.0415,
+      "accumulated_radiation_msv": 0.164,
+      "cosmic_ray_flux_cpm": 31,
+      "atmospheric_pressure_pa": 1.46e-09,
+      "dust_particulate_density_pm3": 1265,
+      "spe_intensity_protons_cm2_sr": 0.5,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 2.76,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 37,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.75,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 2.76,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 2.96,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 5.0,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 169,
+      "bit_temp_k": 148.9,
+      "drill_depth_cm": 60,
+      "torque_nm": 5.9,
+      "penetration_rate_mm_s": 2.0,
+      "energy_joules": 2535,
+      "drill_energy_to_yield_ratio": 96.8,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 26.2,
+      "nh3_ppm": 0.3,
+      "h2s_ppm": 0.1,
+      "co2_ppm": 38.6,
+      "co_ppm": 22.3,
+      "ch4_ppm": 0.9,
+      "so2_ppm": 0.1,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 327,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 26.2
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 42,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.3
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 15,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.1
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 694,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 38.6
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 490,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 22.3
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 90.5,
+      "o2_pressure_kpa": 29.5,
+      "co2_scrubber_remaining_hrs": 7.4,
+      "battery_remaining_percent": 85.7,
+      "thermal_coolant_water_kg": 3.9,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-005",
+    "timestamp": "2026-08-30T19:10:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:20:00",
+    "siteId": "PSR-SHACKLETON-P05",
+    "siteName": "Upper Shadow Ingress Ramp (Sample #5)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.7593,
+      "lon": 113.4909,
+      "depth_m": 0.84,
+      "elevation_m": 1128,
+      "slope_deg": 11.9
+    },
+    "env": {
+      "surface_temp_k": 80.8,
+      "subsurface_temp_k": 76.3,
+      "radiation_dose_rate_msv_hr": 0.0421,
+      "accumulated_radiation_msv": 0.167,
+      "cosmic_ray_flux_cpm": 28,
+      "atmospheric_pressure_pa": 2.91e-09,
+      "dust_particulate_density_pm3": 3130,
+      "spe_intensity_protons_cm2_sr": 0.7,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.2,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 26,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.73,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.2,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.4,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 5.09,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "IDLE",
+      "resistance_n": 240,
+      "bit_temp_k": 93.0,
+      "drill_depth_cm": 84,
+      "torque_nm": 8.4,
+      "penetration_rate_mm_s": 1.8,
+      "energy_joules": 5040,
+      "drill_energy_to_yield_ratio": 13.3,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 379.6,
+      "nh3_ppm": 2.7,
+      "h2s_ppm": 0.6,
+      "co2_ppm": 66.0,
+      "co_ppm": 28.4,
+      "ch4_ppm": 4.7,
+      "so2_ppm": 0.4,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 4745,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 379.6
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 378,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.7
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 90,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.6
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 1188,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 66.0
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 624,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 28.4
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 88.7,
+      "o2_pressure_kpa": 29.5,
+      "co2_scrubber_remaining_hrs": 7.3,
+      "battery_remaining_percent": 84.2,
+      "thermal_coolant_water_kg": 3.8,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-006",
+    "timestamp": "2026-08-30T19:15:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:25:00",
+    "siteId": "PSR-SHACKLETON-P06",
+    "siteName": "Upper Shadow Ingress Ramp (Sample #6)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.7545,
+      "lon": 113.4931,
+      "depth_m": 0.64,
+      "elevation_m": 1104,
+      "slope_deg": 10.7
+    },
+    "env": {
+      "surface_temp_k": 64.2,
+      "subsurface_temp_k": 58.9,
+      "radiation_dose_rate_msv_hr": 0.0433,
+      "accumulated_radiation_msv": 0.171,
+      "cosmic_ray_flux_cpm": 29,
+      "atmospheric_pressure_pa": 3.84e-09,
+      "dust_particulate_density_pm3": 5623,
+      "spe_intensity_protons_cm2_sr": 1.1,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.11,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 30,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.73,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.11,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.31,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.75,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 215,
+      "bit_temp_k": 89.7,
+      "drill_depth_cm": 64,
+      "torque_nm": 7.5,
+      "penetration_rate_mm_s": 1.9,
+      "energy_joules": 3440,
+      "drill_energy_to_yield_ratio": 5.8,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 592.6,
+      "nh3_ppm": 2.1,
+      "h2s_ppm": 0.5,
+      "co2_ppm": 63.5,
+      "co_ppm": 31.4,
+      "ch4_ppm": 7.7,
+      "so2_ppm": 0.3,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 7407,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 592.6
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 294,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.1
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 75,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.5
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 1143,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 63.5
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 690,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 31.4
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 86.7,
+      "o2_pressure_kpa": 29.4,
+      "co2_scrubber_remaining_hrs": 7.2,
+      "battery_remaining_percent": 82.6,
+      "thermal_coolant_water_kg": 3.7,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-007",
+    "timestamp": "2026-08-30T19:20:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:30:00",
+    "siteId": "PSR-SHACKLETON-P07",
+    "siteName": "Upper Shadow Ingress Ramp (Sample #7)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.7681,
+      "lon": 113.4825,
+      "depth_m": 0.7,
+      "elevation_m": 1112,
+      "slope_deg": 11.8
+    },
+    "env": {
+      "surface_temp_k": 83.3,
+      "subsurface_temp_k": 77.7,
+      "radiation_dose_rate_msv_hr": 0.0433,
+      "accumulated_radiation_msv": 0.174,
+      "cosmic_ray_flux_cpm": 31,
+      "atmospheric_pressure_pa": 1.22e-09,
+      "dust_particulate_density_pm3": 5954,
+      "spe_intensity_protons_cm2_sr": 1.1,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.2,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 29,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.62,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.2,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.4,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 5.03,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 234,
+      "bit_temp_k": 101.1,
+      "drill_depth_cm": 70,
+      "torque_nm": 8.2,
+      "penetration_rate_mm_s": 1.8,
+      "energy_joules": 4095,
+      "drill_energy_to_yield_ratio": 7.3,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 558.4,
+      "nh3_ppm": 2.1,
+      "h2s_ppm": 0.5,
+      "co2_ppm": 46.5,
+      "co_ppm": 21.2,
+      "ch4_ppm": 5.9,
+      "so2_ppm": 0.3,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 6980,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 558.4
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 294,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.1
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 75,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.5
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 837,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 46.5
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 466,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 21.2
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 85.4,
+      "o2_pressure_kpa": 29.4,
+      "co2_scrubber_remaining_hrs": 7.1,
+      "battery_remaining_percent": 80.2,
+      "thermal_coolant_water_kg": 3.5,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-008",
+    "timestamp": "2026-08-30T19:25:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:35:00",
+    "siteId": "PSR-SHACKLETON-P08",
+    "siteName": "Mid-PSR Subsurface Cavity & Collapse Zone (Sample #8)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.8795,
+      "lon": 118.4151,
+      "depth_m": 0.37,
+      "elevation_m": 675,
+      "slope_deg": 2.5
+    },
+    "env": {
+      "surface_temp_k": 45.7,
+      "subsurface_temp_k": 43.2,
+      "radiation_dose_rate_msv_hr": 0.0642,
+      "accumulated_radiation_msv": 0.18,
+      "cosmic_ray_flux_cpm": 35,
+      "atmospheric_pressure_pa": 3.46e-09,
+      "dust_particulate_density_pm3": 9405,
+      "spe_intensity_protons_cm2_sr": 2.2,
+      "status": "CAUTION"
+    },
+    "gpr": {
+      "dielectric_constant": 1.58,
+      "void_detected": true,
+      "void_depth_m": 0.9,
+      "void_volume_m3": 2.4,
+      "collapse_hazard_score": 93,
+      "layers": [
+        {
+          "depth_m": 0.3,
+          "dielectric": 2.64,
+          "radar_reflectivity_db": -24,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.2,
+          "dielectric": 1.25,
+          "radar_reflectivity_db": 6,
+          "layer_type": "Cavity/Void"
+        },
+        {
+          "depth_m": 2.6,
+          "dielectric": 2.28,
+          "radar_reflectivity_db": -18,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 4.2,
+          "dielectric": 4.95,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "drill": {
+      "state": "ABORTED",
+      "resistance_n": 55,
+      "bit_temp_k": 53.7,
+      "drill_depth_cm": 37,
+      "torque_nm": 2.4,
+      "penetration_rate_mm_s": 4.8,
+      "energy_joules": 508,
+      "drill_energy_to_yield_ratio": 2.5,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 201.7,
+      "nh3_ppm": 2.0,
+      "h2s_ppm": 1.6,
+      "co2_ppm": 26.0,
+      "co_ppm": 17.1,
+      "ch4_ppm": 4.5,
+      "so2_ppm": 0.8,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 2521,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 201.7
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 280,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.0
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 240,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.6
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 468,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 26.0
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 376,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 17.1
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 83.6,
+      "o2_pressure_kpa": 29.4,
+      "co2_scrubber_remaining_hrs": 7.0,
+      "battery_remaining_percent": 78.1,
+      "thermal_coolant_water_kg": 3.4,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-009",
+    "timestamp": "2026-08-30T19:30:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:40:00",
+    "siteId": "PSR-SHACKLETON-P09",
+    "siteName": "Mid-PSR Subsurface Cavity & Collapse Zone (Sample #9)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.8744,
+      "lon": 118.3801,
+      "depth_m": 0.48,
+      "elevation_m": 670,
+      "slope_deg": 4.0
+    },
+    "env": {
+      "surface_temp_k": 44.0,
+      "subsurface_temp_k": 38.0,
+      "radiation_dose_rate_msv_hr": 0.0645,
+      "accumulated_radiation_msv": 0.185,
+      "cosmic_ray_flux_cpm": 31,
+      "atmospheric_pressure_pa": 4.34e-09,
+      "dust_particulate_density_pm3": 13460,
+      "spe_intensity_protons_cm2_sr": 1.2,
+      "status": "CAUTION"
+    },
+    "gpr": {
+      "dielectric_constant": 1.27,
+      "void_detected": true,
+      "void_depth_m": 0.8,
+      "void_volume_m3": 4.5,
+      "collapse_hazard_score": 88,
+      "layers": [
+        {
+          "depth_m": 0.3,
+          "dielectric": 2.68,
+          "radar_reflectivity_db": -24,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.2,
+          "dielectric": 1.25,
+          "radar_reflectivity_db": 6,
+          "layer_type": "Cavity/Void"
+        },
+        {
+          "depth_m": 2.6,
+          "dielectric": 2.36,
+          "radar_reflectivity_db": -18,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 4.2,
+          "dielectric": 4.62,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "drill": {
+      "state": "ABORTED",
+      "resistance_n": 73,
+      "bit_temp_k": 52.0,
+      "drill_depth_cm": 48,
+      "torque_nm": 2.4,
+      "penetration_rate_mm_s": 4.8,
+      "energy_joules": 876,
+      "drill_energy_to_yield_ratio": 3.4,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 255.5,
+      "nh3_ppm": 2.5,
+      "h2s_ppm": 1.4,
+      "co2_ppm": 36.6,
+      "co_ppm": 16.4,
+      "ch4_ppm": 5.5,
+      "so2_ppm": 0.7,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 3193,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 255.5
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 350,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.5
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 210,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.4
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 658,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 36.6
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 360,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 16.4
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 82.1,
+      "o2_pressure_kpa": 29.4,
+      "co2_scrubber_remaining_hrs": 6.9,
+      "battery_remaining_percent": 76.0,
+      "thermal_coolant_water_kg": 3.2,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-010",
+    "timestamp": "2026-08-30T19:35:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:45:00",
+    "siteId": "PSR-SHACKLETON-P10",
+    "siteName": "Mid-PSR Subsurface Cavity & Collapse Zone (Sample #10)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.8839,
+      "lon": 118.6392,
+      "depth_m": 0.44,
+      "elevation_m": 665,
+      "slope_deg": 13.0
+    },
+    "env": {
+      "surface_temp_k": 45.5,
+      "subsurface_temp_k": 41.9,
+      "radiation_dose_rate_msv_hr": 0.0668,
+      "accumulated_radiation_msv": 0.191,
+      "cosmic_ray_flux_cpm": 26,
+      "atmospheric_pressure_pa": 3.74e-09,
+      "dust_particulate_density_pm3": 7555,
+      "spe_intensity_protons_cm2_sr": 1.6,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 1.79,
+      "void_detected": true,
+      "void_depth_m": 1.5,
+      "void_volume_m3": 2.0,
+      "collapse_hazard_score": 86,
+      "layers": [
+        {
+          "depth_m": 0.3,
+          "dielectric": 2.51,
+          "radar_reflectivity_db": -24,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.2,
+          "dielectric": 1.11,
+          "radar_reflectivity_db": 6,
+          "layer_type": "Cavity/Void"
+        },
+        {
+          "depth_m": 2.6,
+          "dielectric": 2.36,
+          "radar_reflectivity_db": -18,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 4.2,
+          "dielectric": 4.9,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "drill": {
+      "state": "ABORTED",
+      "resistance_n": 70,
+      "bit_temp_k": 53.5,
+      "drill_depth_cm": 44,
+      "torque_nm": 2.4,
+      "penetration_rate_mm_s": 4.8,
+      "energy_joules": 770,
+      "drill_energy_to_yield_ratio": 2.8,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 274.4,
+      "nh3_ppm": 4.2,
+      "h2s_ppm": 1.3,
+      "co2_ppm": 48.9,
+      "co_ppm": 19.9,
+      "ch4_ppm": 3.4,
+      "so2_ppm": 0.7,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 3429,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 274.4
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 588,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 4.2
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 195,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.3
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 880,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 48.9
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 437,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 19.9
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 80.4,
+      "o2_pressure_kpa": 29.4,
+      "co2_scrubber_remaining_hrs": 6.8,
+      "battery_remaining_percent": 73.6,
+      "thermal_coolant_water_kg": 3.0,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-011",
+    "timestamp": "2026-08-30T19:40:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:50:00",
+    "siteId": "PSR-SHACKLETON-P11",
+    "siteName": "Mid-PSR Subsurface Cavity & Collapse Zone (Sample #11)",
+    "craterRegion": "Shackleton",
+    "coordinates": {
+      "lat": -89.8723,
+      "lon": 118.4359,
+      "depth_m": 0.37,
+      "elevation_m": 700,
+      "slope_deg": 12.5
+    },
+    "env": {
+      "surface_temp_k": 44.0,
+      "subsurface_temp_k": 39.2,
+      "radiation_dose_rate_msv_hr": 0.0582,
+      "accumulated_radiation_msv": 0.196,
+      "cosmic_ray_flux_cpm": 29,
+      "atmospheric_pressure_pa": 1.21e-09,
+      "dust_particulate_density_pm3": 7513,
+      "spe_intensity_protons_cm2_sr": 2.4,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 1.41,
+      "void_detected": true,
+      "void_depth_m": 1.6,
+      "void_volume_m3": 2.6,
+      "collapse_hazard_score": 93,
+      "layers": [
+        {
+          "depth_m": 0.3,
+          "dielectric": 2.66,
+          "radar_reflectivity_db": -24,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.2,
+          "dielectric": 1.23,
+          "radar_reflectivity_db": 6,
+          "layer_type": "Cavity/Void"
+        },
+        {
+          "depth_m": 2.6,
+          "dielectric": 2.3,
+          "radar_reflectivity_db": -18,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 4.2,
+          "dielectric": 4.84,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "drill": {
+      "state": "ABORTED",
+      "resistance_n": 52,
+      "bit_temp_k": 52.0,
+      "drill_depth_cm": 37,
+      "torque_nm": 2.4,
+      "penetration_rate_mm_s": 4.8,
+      "energy_joules": 481,
+      "drill_energy_to_yield_ratio": 2.7,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 180.3,
+      "nh3_ppm": 4.3,
+      "h2s_ppm": 1.3,
+      "co2_ppm": 31.7,
+      "co_ppm": 14.8,
+      "ch4_ppm": 2.4,
+      "so2_ppm": 0.7,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 2253,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 180.3
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 602,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 4.3
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 195,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.3
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 570,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 31.7
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 325,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 14.8
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 78.6,
+      "o2_pressure_kpa": 29.3,
+      "co2_scrubber_remaining_hrs": 6.7,
+      "battery_remaining_percent": 71.9,
+      "thermal_coolant_water_kg": 2.9,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-012",
+    "timestamp": "2026-08-30T19:45:36.098069+00:00",
+    "mission_elapsed_time": "MET 00:55:00",
+    "siteId": "PSR-FAUSTINI-P12",
+    "siteName": "Faustini Volatile Vent & Outgassing Pocket (Sample #12)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.6224,
+      "lon": 128.0966,
+      "depth_m": 0.85,
+      "elevation_m": 527,
+      "slope_deg": 13.1
+    },
+    "env": {
+      "surface_temp_k": 46.8,
+      "subsurface_temp_k": 44.4,
+      "radiation_dose_rate_msv_hr": 0.0604,
+      "accumulated_radiation_msv": 0.201,
+      "cosmic_ray_flux_cpm": 30,
+      "atmospheric_pressure_pa": 3.376e-05,
+      "dust_particulate_density_pm3": 29803,
+      "spe_intensity_protons_cm2_sr": 2.9,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.5,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 14,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.62,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.5,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.7,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.88,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 348,
+      "bit_temp_k": 69.6,
+      "drill_depth_cm": 85,
+      "torque_nm": 12.2,
+      "penetration_rate_mm_s": 1.5,
+      "energy_joules": 7395,
+      "drill_energy_to_yield_ratio": 5.4,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 1370.1,
+      "nh3_ppm": 72.3,
+      "h2s_ppm": 38.2,
+      "co2_ppm": 103.4,
+      "co_ppm": 41.5,
+      "ch4_ppm": 13.2,
+      "so2_ppm": 32.7,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 17126,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 1370.1
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 10122,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 72.3
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 5730,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 38.2
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 1861,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 103.4
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 913,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 41.5
+        },
+        {
+          "mz": 64,
+          "intensity_cps": 2779,
+          "molecule": "SO2",
+          "hazard_class": "Toxin",
+          "detected_ppm": 32.7
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 76.4,
+      "o2_pressure_kpa": 29.3,
+      "co2_scrubber_remaining_hrs": 6.6,
+      "battery_remaining_percent": 69.6,
+      "thermal_coolant_water_kg": 2.8,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-013",
+    "timestamp": "2026-08-30T19:50:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:00:00",
+    "siteId": "PSR-FAUSTINI-P13",
+    "siteName": "Faustini Volatile Vent & Outgassing Pocket (Sample #13)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.623,
+      "lon": 128.1006,
+      "depth_m": 0.63,
+      "elevation_m": 558,
+      "slope_deg": 8.6
+    },
+    "env": {
+      "surface_temp_k": 52.3,
+      "subsurface_temp_k": 49.4,
+      "radiation_dose_rate_msv_hr": 0.0469,
+      "accumulated_radiation_msv": 0.204,
+      "cosmic_ray_flux_cpm": 30,
+      "atmospheric_pressure_pa": 2.151e-05,
+      "dust_particulate_density_pm3": 26031,
+      "spe_intensity_protons_cm2_sr": 2.3,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.22,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 33,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.79,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.22,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.42,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.95,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 399,
+      "bit_temp_k": 84.4,
+      "drill_depth_cm": 63,
+      "torque_nm": 14.0,
+      "penetration_rate_mm_s": 1.3,
+      "energy_joules": 6284,
+      "drill_energy_to_yield_ratio": 4.1,
+      "status": "CAUTION"
+    },
+    "ngms": {
+      "h2o_ppm": 1542.0,
+      "nh3_ppm": 61.0,
+      "h2s_ppm": 44.8,
+      "co2_ppm": 87.7,
+      "co_ppm": 37.8,
+      "ch4_ppm": 15.1,
+      "so2_ppm": 30.7,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 19275,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 1542.0
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 8540,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 61.0
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 6720,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 44.8
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 1578,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 87.7
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 831,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 37.8
+        },
+        {
+          "mz": 64,
+          "intensity_cps": 2609,
+          "molecule": "SO2",
+          "hazard_class": "Toxin",
+          "detected_ppm": 30.7
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 75.1,
+      "o2_pressure_kpa": 29.3,
+      "co2_scrubber_remaining_hrs": 6.5,
+      "battery_remaining_percent": 67.9,
+      "thermal_coolant_water_kg": 2.7,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-014",
+    "timestamp": "2026-08-30T19:55:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:05:00",
+    "siteId": "PSR-FAUSTINI-P14",
+    "siteName": "Faustini Volatile Vent & Outgassing Pocket (Sample #14)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.6336,
+      "lon": 128.2152,
+      "depth_m": 0.48,
+      "elevation_m": 544,
+      "slope_deg": 3.1
+    },
+    "env": {
+      "surface_temp_k": 51.3,
+      "subsurface_temp_k": 48.1,
+      "radiation_dose_rate_msv_hr": 0.0469,
+      "accumulated_radiation_msv": 0.208,
+      "cosmic_ray_flux_cpm": 30,
+      "atmospheric_pressure_pa": 6.786e-05,
+      "dust_particulate_density_pm3": 28958,
+      "spe_intensity_protons_cm2_sr": 2.3,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.34,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 35,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.6,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.34,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.54,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 5.08,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 396,
+      "bit_temp_k": 66.8,
+      "drill_depth_cm": 48,
+      "torque_nm": 13.9,
+      "penetration_rate_mm_s": 1.3,
+      "energy_joules": 4752,
+      "drill_energy_to_yield_ratio": 4.3,
+      "status": "CAUTION"
+    },
+    "ngms": {
+      "h2o_ppm": 1115.0,
+      "nh3_ppm": 42.5,
+      "h2s_ppm": 29.6,
+      "co2_ppm": 99.2,
+      "co_ppm": 44.7,
+      "ch4_ppm": 11.8,
+      "so2_ppm": 19.9,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 13937,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 1115.0
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 5950,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 42.5
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 4440,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 29.6
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 1785,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 99.2
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 983,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 44.7
+        },
+        {
+          "mz": 64,
+          "intensity_cps": 1691,
+          "molecule": "SO2",
+          "hazard_class": "Toxin",
+          "detected_ppm": 19.9
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 73.3,
+      "o2_pressure_kpa": 29.3,
+      "co2_scrubber_remaining_hrs": 6.4,
+      "battery_remaining_percent": 65.5,
+      "thermal_coolant_water_kg": 2.6,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-015",
+    "timestamp": "2026-08-30T20:00:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:10:00",
+    "siteId": "PSR-FAUSTINI-P15",
+    "siteName": "Faustini High-Purity Permafrost Basin (Sample #15)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.6808,
+      "lon": 135.5087,
+      "depth_m": 0.52,
+      "elevation_m": 719,
+      "slope_deg": 7.1
+    },
+    "env": {
+      "surface_temp_k": 54.9,
+      "subsurface_temp_k": 52.8,
+      "radiation_dose_rate_msv_hr": 0.0436,
+      "accumulated_radiation_msv": 0.212,
+      "cosmic_ray_flux_cpm": 25,
+      "atmospheric_pressure_pa": 3.56e-09,
+      "dust_particulate_density_pm3": 1677,
+      "spe_intensity_protons_cm2_sr": 1.2,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 4.08,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 6,
+      "layers": [
+        {
+          "depth_m": 0.2,
+          "dielectric": 2.86,
+          "radar_reflectivity_db": -26,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 0.9,
+          "dielectric": 4.12,
+          "radar_reflectivity_db": -6,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 2.5,
+          "dielectric": 4.2,
+          "radar_reflectivity_db": -5,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 4.4,
+          "dielectric": 5.05,
+          "radar_reflectivity_db": -10,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 252,
+      "bit_temp_k": 68.7,
+      "drill_depth_cm": 52,
+      "torque_nm": 8.8,
+      "penetration_rate_mm_s": 1.7,
+      "energy_joules": 3276,
+      "drill_energy_to_yield_ratio": 0.8,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 4074.9,
+      "nh3_ppm": 2.4,
+      "h2s_ppm": 0.6,
+      "co2_ppm": 322.8,
+      "co_ppm": 117.2,
+      "ch4_ppm": 36.5,
+      "so2_ppm": 0.4,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 50936,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 4074.9
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 336,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.4
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 90,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.6
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 5810,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 322.8
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 2578,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 117.2
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 71.6,
+      "o2_pressure_kpa": 29.3,
+      "co2_scrubber_remaining_hrs": 6.3,
+      "battery_remaining_percent": 62.8,
+      "thermal_coolant_water_kg": 2.5,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-016",
+    "timestamp": "2026-08-30T20:05:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:15:00",
+    "siteId": "PSR-FAUSTINI-P16",
+    "siteName": "Faustini High-Purity Permafrost Basin (Sample #16)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.6859,
+      "lon": 135.6218,
+      "depth_m": 0.51,
+      "elevation_m": 718,
+      "slope_deg": 2.6
+    },
+    "env": {
+      "surface_temp_k": 53.1,
+      "subsurface_temp_k": 47.8,
+      "radiation_dose_rate_msv_hr": 0.0436,
+      "accumulated_radiation_msv": 0.216,
+      "cosmic_ray_flux_cpm": 31,
+      "atmospheric_pressure_pa": 3.43e-09,
+      "dust_particulate_density_pm3": 1620,
+      "spe_intensity_protons_cm2_sr": 1.2,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 4.34,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 22,
+      "layers": [
+        {
+          "depth_m": 0.2,
+          "dielectric": 2.78,
+          "radar_reflectivity_db": -26,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 0.9,
+          "dielectric": 4.46,
+          "radar_reflectivity_db": -6,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 2.5,
+          "dielectric": 4.55,
+          "radar_reflectivity_db": -5,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 4.4,
+          "dielectric": 4.97,
+          "radar_reflectivity_db": -10,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "IDLE",
+      "resistance_n": 325,
+      "bit_temp_k": 78.5,
+      "drill_depth_cm": 51,
+      "torque_nm": 11.4,
+      "penetration_rate_mm_s": 1.5,
+      "energy_joules": 4143,
+      "drill_energy_to_yield_ratio": 1.1,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 3774.8,
+      "nh3_ppm": 3.0,
+      "h2s_ppm": 0.8,
+      "co2_ppm": 216.9,
+      "co_ppm": 84.1,
+      "ch4_ppm": 32.3,
+      "so2_ppm": 0.5,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 47185,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 3774.8
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 420,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 3.0
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 120,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.8
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 3904,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 216.9
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 1850,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 84.1
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 69.7,
+      "o2_pressure_kpa": 29.2,
+      "co2_scrubber_remaining_hrs": 6.2,
+      "battery_remaining_percent": 59.7,
+      "thermal_coolant_water_kg": 2.4,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-017",
+    "timestamp": "2026-08-30T20:10:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:20:00",
+    "siteId": "PSR-FAUSTINI-P17",
+    "siteName": "Faustini High-Purity Permafrost Basin (Sample #17)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.6748,
+      "lon": 135.578,
+      "depth_m": 1.06,
+      "elevation_m": 715,
+      "slope_deg": 9.0
+    },
+    "env": {
+      "surface_temp_k": 54.1,
+      "subsurface_temp_k": 50.6,
+      "radiation_dose_rate_msv_hr": 0.0424,
+      "accumulated_radiation_msv": 0.219,
+      "cosmic_ray_flux_cpm": 32,
+      "atmospheric_pressure_pa": 3.02e-09,
+      "dust_particulate_density_pm3": 2188,
+      "spe_intensity_protons_cm2_sr": 0.8,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 4.12,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 12,
+      "layers": [
+        {
+          "depth_m": 0.2,
+          "dielectric": 2.75,
+          "radar_reflectivity_db": -26,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 0.9,
+          "dielectric": 4.31,
+          "radar_reflectivity_db": -6,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 2.5,
+          "dielectric": 4.28,
+          "radar_reflectivity_db": -5,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 4.4,
+          "dielectric": 5.1,
+          "radar_reflectivity_db": -10,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 240,
+      "bit_temp_k": 78.2,
+      "drill_depth_cm": 106,
+      "torque_nm": 8.4,
+      "penetration_rate_mm_s": 1.8,
+      "energy_joules": 6360,
+      "drill_energy_to_yield_ratio": 1.8,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 3498.5,
+      "nh3_ppm": 1.7,
+      "h2s_ppm": 0.6,
+      "co2_ppm": 248.4,
+      "co_ppm": 94.1,
+      "ch4_ppm": 29.1,
+      "so2_ppm": 0.4,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 43731,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 3498.5
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 238,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.7
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 90,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.6
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 4471,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 248.4
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 2070,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 94.1
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 68.1,
+      "o2_pressure_kpa": 29.2,
+      "co2_scrubber_remaining_hrs": 6.1,
+      "battery_remaining_percent": 57.7,
+      "thermal_coolant_water_kg": 2.3,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-018",
+    "timestamp": "2026-08-30T20:15:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:25:00",
+    "siteId": "PSR-FAUSTINI-P18",
+    "siteName": "Faustini High-Purity Permafrost Basin (Sample #18)",
+    "craterRegion": "Faustini",
+    "coordinates": {
+      "lat": -89.6706,
+      "lon": 135.4955,
+      "depth_m": 0.92,
+      "elevation_m": 717,
+      "slope_deg": 3.7
+    },
+    "env": {
+      "surface_temp_k": 51.8,
+      "subsurface_temp_k": 47.6,
+      "radiation_dose_rate_msv_hr": 0.0424,
+      "accumulated_radiation_msv": 0.223,
+      "cosmic_ray_flux_cpm": 29,
+      "atmospheric_pressure_pa": 2.29e-09,
+      "dust_particulate_density_pm3": 2144,
+      "spe_intensity_protons_cm2_sr": 0.8,
+      "status": "NOMINAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.96,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 17,
+      "layers": [
+        {
+          "depth_m": 0.2,
+          "dielectric": 2.84,
+          "radar_reflectivity_db": -26,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 0.9,
+          "dielectric": 4.07,
+          "radar_reflectivity_db": -6,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 2.5,
+          "dielectric": 4.21,
+          "radar_reflectivity_db": -5,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 4.4,
+          "dielectric": 5.16,
+          "radar_reflectivity_db": -10,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 251,
+      "bit_temp_k": 69.0,
+      "drill_depth_cm": 92,
+      "torque_nm": 8.8,
+      "penetration_rate_mm_s": 1.7,
+      "energy_joules": 5773,
+      "drill_energy_to_yield_ratio": 1.6,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 3540.4,
+      "nh3_ppm": 1.9,
+      "h2s_ppm": 0.7,
+      "co2_ppm": 295.7,
+      "co_ppm": 110.1,
+      "ch4_ppm": 29.2,
+      "so2_ppm": 0.4,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 44255,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 3540.4
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 266,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.9
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 105,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.7
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 5322,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 295.7
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 2422,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 110.1
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 66.2,
+      "o2_pressure_kpa": 29.2,
+      "co2_scrubber_remaining_hrs": 6.0,
+      "battery_remaining_percent": 55.9,
+      "thermal_coolant_water_kg": 2.2,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-019",
+    "timestamp": "2026-08-30T20:20:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:30:00",
+    "siteId": "PSR-HAWORTH-P19",
+    "siteName": "Haworth Deep Ultra-Cold Cryo-Floor (Sample #19)",
+    "craterRegion": "Haworth",
+    "coordinates": {
+      "lat": -89.4177,
+      "lon": 104.0142,
+      "depth_m": 0.63,
+      "elevation_m": 303,
+      "slope_deg": 8.7
+    },
+    "env": {
+      "surface_temp_k": 33.0,
+      "subsurface_temp_k": 29.2,
+      "radiation_dose_rate_msv_hr": 0.0554,
+      "accumulated_radiation_msv": 0.227,
+      "cosmic_ray_flux_cpm": 32,
+      "atmospheric_pressure_pa": 3.1e-09,
+      "dust_particulate_density_pm3": 6280,
+      "spe_intensity_protons_cm2_sr": 2.1,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.75,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 32,
+      "layers": [
+        {
+          "depth_m": 0.2,
+          "dielectric": 2.89,
+          "radar_reflectivity_db": -26,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 0.9,
+          "dielectric": 3.76,
+          "radar_reflectivity_db": -6,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 2.5,
+          "dielectric": 3.79,
+          "radar_reflectivity_db": -5,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 4.4,
+          "dielectric": 5.14,
+          "radar_reflectivity_db": -10,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 797,
+      "bit_temp_k": 57.1,
+      "drill_depth_cm": 63,
+      "torque_nm": 27.9,
+      "penetration_rate_mm_s": 0.2,
+      "energy_joules": 12552,
+      "drill_energy_to_yield_ratio": 4.2,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 2993.4,
+      "nh3_ppm": 7.8,
+      "h2s_ppm": 1.9,
+      "co2_ppm": 155.8,
+      "co_ppm": 58.0,
+      "ch4_ppm": 24.7,
+      "so2_ppm": 1.0,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 37417,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 2993.4
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 1092,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 7.8
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 285,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.9
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 2804,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 155.8
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 1276,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 58.0
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 63.8,
+      "o2_pressure_kpa": 29.2,
+      "co2_scrubber_remaining_hrs": 5.9,
+      "battery_remaining_percent": 53.2,
+      "thermal_coolant_water_kg": 2.1,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-020",
+    "timestamp": "2026-08-30T20:25:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:35:00",
+    "siteId": "PSR-HAWORTH-P20",
+    "siteName": "Haworth Deep Ultra-Cold Cryo-Floor (Sample #20)",
+    "craterRegion": "Haworth",
+    "coordinates": {
+      "lat": -89.4144,
+      "lon": 104.1409,
+      "depth_m": 0.41,
+      "elevation_m": 272,
+      "slope_deg": 13.5
+    },
+    "env": {
+      "surface_temp_k": 31.3,
+      "subsurface_temp_k": 26.5,
+      "radiation_dose_rate_msv_hr": 0.0626,
+      "accumulated_radiation_msv": 0.233,
+      "cosmic_ray_flux_cpm": 31,
+      "atmospheric_pressure_pa": 2.94e-09,
+      "dust_particulate_density_pm3": 8659,
+      "spe_intensity_protons_cm2_sr": 2.3,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 1.57,
+      "void_detected": true,
+      "void_depth_m": 1.3,
+      "void_volume_m3": 3.3,
+      "collapse_hazard_score": 86,
+      "layers": [
+        {
+          "depth_m": 0.3,
+          "dielectric": 2.8,
+          "radar_reflectivity_db": -24,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.2,
+          "dielectric": 1.19,
+          "radar_reflectivity_db": 6,
+          "layer_type": "Cavity/Void"
+        },
+        {
+          "depth_m": 2.6,
+          "dielectric": 2.2,
+          "radar_reflectivity_db": -18,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 4.2,
+          "dielectric": 4.92,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CRITICAL"
+    },
+    "drill": {
+      "state": "ABORTED",
+      "resistance_n": 33,
+      "bit_temp_k": 39.3,
+      "drill_depth_cm": 41,
+      "torque_nm": 2.4,
+      "penetration_rate_mm_s": 4.8,
+      "energy_joules": 338,
+      "drill_energy_to_yield_ratio": 0.1,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 3283.9,
+      "nh3_ppm": 11.8,
+      "h2s_ppm": 2.8,
+      "co2_ppm": 270.5,
+      "co_ppm": 97.9,
+      "ch4_ppm": 28.0,
+      "so2_ppm": 1.4,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 41048,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 3283.9
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 1652,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 11.8
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 420,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 2.8
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 4869,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 270.5
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 2153,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 97.9
+        },
+        {
+          "mz": 64,
+          "intensity_cps": 118,
+          "molecule": "SO2",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.4
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 62.6,
+      "o2_pressure_kpa": 29.2,
+      "co2_scrubber_remaining_hrs": 5.8,
+      "battery_remaining_percent": 49.7,
+      "thermal_coolant_water_kg": 2.0,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-021",
+    "timestamp": "2026-08-30T20:30:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:40:00",
+    "siteId": "PSR-HAWORTH-P21",
+    "siteName": "Haworth Deep Ultra-Cold Cryo-Floor (Sample #21)",
+    "craterRegion": "Haworth",
+    "coordinates": {
+      "lat": -89.4336,
+      "lon": 104.3195,
+      "depth_m": 1.08,
+      "elevation_m": 289,
+      "slope_deg": 3.5
+    },
+    "env": {
+      "surface_temp_k": 31.6,
+      "subsurface_temp_k": 28.4,
+      "radiation_dose_rate_msv_hr": 0.0608,
+      "accumulated_radiation_msv": 0.238,
+      "cosmic_ray_flux_cpm": 29,
+      "atmospheric_pressure_pa": 3.65e-09,
+      "dust_particulate_density_pm3": 4527,
+      "spe_intensity_protons_cm2_sr": 1.3,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 4.11,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 11,
+      "layers": [
+        {
+          "depth_m": 0.2,
+          "dielectric": 2.74,
+          "radar_reflectivity_db": -26,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 0.9,
+          "dielectric": 4.03,
+          "radar_reflectivity_db": -6,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 2.5,
+          "dielectric": 4.13,
+          "radar_reflectivity_db": -5,
+          "layer_type": "High-Purity Ice"
+        },
+        {
+          "depth_m": 4.4,
+          "dielectric": 5.03,
+          "radar_reflectivity_db": -10,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "IDLE",
+      "resistance_n": 797,
+      "bit_temp_k": 57.3,
+      "drill_depth_cm": 108,
+      "torque_nm": 27.9,
+      "penetration_rate_mm_s": 0.2,
+      "energy_joules": 21519,
+      "drill_energy_to_yield_ratio": 6.6,
+      "status": "CRITICAL"
+    },
+    "ngms": {
+      "h2o_ppm": 3269.9,
+      "nh3_ppm": 4.7,
+      "h2s_ppm": 3.7,
+      "co2_ppm": 185.0,
+      "co_ppm": 72.7,
+      "ch4_ppm": 29.6,
+      "so2_ppm": 1.8,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 40873,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 3269.9
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 658,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 4.7
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 555,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 3.7
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 3330,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 185.0
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 1599,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 72.7
+        },
+        {
+          "mz": 64,
+          "intensity_cps": 153,
+          "molecule": "SO2",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.8
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 61.3,
+      "o2_pressure_kpa": 29.1,
+      "co2_scrubber_remaining_hrs": 5.7,
+      "battery_remaining_percent": 47.3,
+      "thermal_coolant_water_kg": 1.9,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-022",
+    "timestamp": "2026-08-30T20:35:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:45:00",
+    "siteId": "PSR-SHOEMAKER-P22",
+    "siteName": "Shoemaker Ridge Solar Storm Corridor (Sample #22)",
+    "craterRegion": "Shoemaker",
+    "coordinates": {
+      "lat": -88.9022,
+      "lon": 44.9967,
+      "depth_m": 0.93,
+      "elevation_m": 1183,
+      "slope_deg": 12.7
+    },
+    "env": {
+      "surface_temp_k": 82.9,
+      "subsurface_temp_k": 77.6,
+      "radiation_dose_rate_msv_hr": 0.8584,
+      "accumulated_radiation_msv": 0.309,
+      "cosmic_ray_flux_cpm": 441,
+      "atmospheric_pressure_pa": 1.97e-09,
+      "dust_particulate_density_pm3": 3895,
+      "spe_intensity_protons_cm2_sr": 272.8,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 2.81,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 9,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.7,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 2.81,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.01,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.83,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "CORE_EXTRACTION",
+      "resistance_n": 168,
+      "bit_temp_k": 103.0,
+      "drill_depth_cm": 93,
+      "torque_nm": 5.9,
+      "penetration_rate_mm_s": 2.0,
+      "energy_joules": 3906,
+      "drill_energy_to_yield_ratio": 11.0,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 355.5,
+      "nh3_ppm": 1.5,
+      "h2s_ppm": 0.3,
+      "co2_ppm": 37.1,
+      "co_ppm": 18.1,
+      "ch4_ppm": 4.7,
+      "so2_ppm": 0.2,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 4443,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 355.5
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 210,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.5
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 45,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.3
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 667,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 37.1
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 398,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 18.1
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 59.8,
+      "o2_pressure_kpa": 29.1,
+      "co2_scrubber_remaining_hrs": 5.6,
+      "battery_remaining_percent": 45.4,
+      "thermal_coolant_water_kg": 1.8,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-023",
+    "timestamp": "2026-08-30T20:40:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:50:00",
+    "siteId": "PSR-SHOEMAKER-P23",
+    "siteName": "Shoemaker Ridge Solar Storm Corridor (Sample #23)",
+    "craterRegion": "Shoemaker",
+    "coordinates": {
+      "lat": -88.9026,
+      "lon": 44.9883,
+      "depth_m": 0.86,
+      "elevation_m": 1211,
+      "slope_deg": 10.0
+    },
+    "env": {
+      "surface_temp_k": 103.3,
+      "subsurface_temp_k": 100.9,
+      "radiation_dose_rate_msv_hr": 0.9094,
+      "accumulated_radiation_msv": 0.385,
+      "cosmic_ray_flux_cpm": 458,
+      "atmospheric_pressure_pa": 2.99e-09,
+      "dust_particulate_density_pm3": 4790,
+      "spe_intensity_protons_cm2_sr": 289.8,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 3.03,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 33,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.78,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 3.03,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.23,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.93,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "CAUTION"
+    },
+    "drill": {
+      "state": "IDLE",
+      "resistance_n": 206,
+      "bit_temp_k": 137.9,
+      "drill_depth_cm": 86,
+      "torque_nm": 7.2,
+      "penetration_rate_mm_s": 1.9,
+      "energy_joules": 4429,
+      "drill_energy_to_yield_ratio": 36.3,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 122.0,
+      "nh3_ppm": 1.2,
+      "h2s_ppm": 0.3,
+      "co2_ppm": 43.7,
+      "co_ppm": 21.7,
+      "ch4_ppm": 4.9,
+      "so2_ppm": 0.2,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 1525,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 122.0
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 168,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 1.2
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 45,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.3
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 786,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 43.7
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 477,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 21.7
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 57.4,
+      "o2_pressure_kpa": 29.1,
+      "co2_scrubber_remaining_hrs": 5.5,
+      "battery_remaining_percent": 42.5,
+      "thermal_coolant_water_kg": 1.7,
+      "status": "NOMINAL"
+    }
+  },
+  {
+    "id": "TEL-SIM-024",
+    "timestamp": "2026-08-30T20:45:36.098069+00:00",
+    "mission_elapsed_time": "MET 01:55:00",
+    "siteId": "PSR-SHOEMAKER-P24",
+    "siteName": "Shoemaker Ridge Solar Storm Corridor (Sample #24)",
+    "craterRegion": "Shoemaker",
+    "coordinates": {
+      "lat": -88.898,
+      "lon": 45.2254,
+      "depth_m": 1.07,
+      "elevation_m": 1188,
+      "slope_deg": 9.1
+    },
+    "env": {
+      "surface_temp_k": 94.2,
+      "subsurface_temp_k": 91.4,
+      "radiation_dose_rate_msv_hr": 0.5458,
+      "accumulated_radiation_msv": 0.43,
+      "cosmic_ray_flux_cpm": 276,
+      "atmospheric_pressure_pa": 1.51e-09,
+      "dust_particulate_density_pm3": 4894,
+      "spe_intensity_protons_cm2_sr": 168.6,
+      "status": "CRITICAL"
+    },
+    "gpr": {
+      "dielectric_constant": 2.95,
+      "void_detected": false,
+      "void_depth_m": null,
+      "void_volume_m3": null,
+      "collapse_hazard_score": 18,
+      "layers": [
+        {
+          "depth_m": 0.4,
+          "dielectric": 2.73,
+          "radar_reflectivity_db": -25,
+          "layer_type": "Regolith"
+        },
+        {
+          "depth_m": 1.4,
+          "dielectric": 2.95,
+          "radar_reflectivity_db": -16,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 2.8,
+          "dielectric": 3.15,
+          "radar_reflectivity_db": -14,
+          "layer_type": "Ice-Regolith Matrix"
+        },
+        {
+          "depth_m": 4.5,
+          "dielectric": 4.73,
+          "radar_reflectivity_db": -11,
+          "layer_type": "Basement Rock"
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "drill": {
+      "state": "DRILLING",
+      "resistance_n": 189,
+      "bit_temp_k": 113.6,
+      "drill_depth_cm": 107,
+      "torque_nm": 6.6,
+      "penetration_rate_mm_s": 1.9,
+      "energy_joules": 5055,
+      "drill_energy_to_yield_ratio": 22.6,
+      "status": "NOMINAL"
+    },
+    "ngms": {
+      "h2o_ppm": 224.0,
+      "nh3_ppm": 0.9,
+      "h2s_ppm": 0.3,
+      "co2_ppm": 25.5,
+      "co_ppm": 16.9,
+      "ch4_ppm": 3.9,
+      "so2_ppm": 0.2,
+      "peaks": [
+        {
+          "mz": 18,
+          "intensity_cps": 2800,
+          "molecule": "H2O",
+          "hazard_class": "Resource",
+          "detected_ppm": 224.0
+        },
+        {
+          "mz": 17,
+          "intensity_cps": 126,
+          "molecule": "NH3",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.9
+        },
+        {
+          "mz": 34,
+          "intensity_cps": 45,
+          "molecule": "H2S",
+          "hazard_class": "Toxin",
+          "detected_ppm": 0.3
+        },
+        {
+          "mz": 44,
+          "intensity_cps": 459,
+          "molecule": "CO2",
+          "hazard_class": "Volatile",
+          "detected_ppm": 25.5
+        },
+        {
+          "mz": 28,
+          "intensity_cps": 371,
+          "molecule": "CO",
+          "hazard_class": "Volatile",
+          "detected_ppm": 16.9
+        }
+      ],
+      "status": "NOMINAL"
+    },
+    "suit_consumables": {
+      "o2_remaining_percent": 55.4,
+      "o2_pressure_kpa": 29.1,
+      "co2_scrubber_remaining_hrs": 5.4,
+      "battery_remaining_percent": 40.2,
+      "thermal_coolant_water_kg": 1.6,
+      "status": "NOMINAL"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "AstraNav PSR",
+  "description": "Bioastronautics Mission Decision-Support & Traverse Planner for Lunar South Pole Permanently Shadowed Regions",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

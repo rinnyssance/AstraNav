@@ -15,7 +15,8 @@ import {
   Pause, 
   SkipForward, 
   RotateCcw,
-  FileCode2
+  FileCode2,
+  BookOpen
 } from 'lucide-react';
 import { BioCoreTelemetry, InstrumentStatus, MissionGoNoGo } from '../types';
 
@@ -27,6 +28,7 @@ interface HeaderHUDProps {
   onNextWaypoint: () => void;
   onReset: () => void;
   onOpenJsonEditor: () => void;
+  onOpenSpecsModal: () => void;
   soundEnabled: boolean;
   onToggleSound: () => void;
   instrumentStatuses: {
@@ -45,6 +47,7 @@ export const HeaderHUD: React.FC<HeaderHUDProps> = ({
   onNextWaypoint,
   onReset,
   onOpenJsonEditor,
+  onOpenSpecsModal,
   soundEnabled,
   onToggleSound,
   instrumentStatuses,
@@ -168,6 +171,15 @@ export const HeaderHUD: React.FC<HeaderHUDProps> = ({
             >
               <FileCode2 className="w-3.5 h-3.5 text-[#006BB3]" />
               <span className="hidden md:inline">JSON INGEST</span>
+            </button>
+
+            <button
+              onClick={onOpenSpecsModal}
+              title="View Mission Specs & Architecture Manual"
+              className="flex items-center gap-1 px-2 py-1 text-[11px] font-mono rounded-sm bg-[#005288]/30 text-sky-300 hover:bg-[#005288]/50 hover:text-white border border-[#006BB3]/60 transition-colors"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-sky-400" />
+              <span className="hidden sm:inline">SPECS &amp; DOCS</span>
             </button>
 
             <button

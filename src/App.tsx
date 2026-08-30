@@ -24,6 +24,9 @@ import {
   TelemetryPayloadEditor 
 } from './components/TelemetryPayloadEditor';
 import { 
+  SystemSpecsModal 
+} from './components/SystemSpecsModal';
+import { 
   INITIAL_WAYPOINTS 
 } from './data/mockTelemetry';
 import { 
@@ -43,7 +46,8 @@ import {
   Sparkles, 
   Download, 
   HelpCircle,
-  FileSpreadsheet
+  FileSpreadsheet,
+  BookOpen
 } from 'lucide-react';
 
 export default function App() {
@@ -52,6 +56,7 @@ export default function App() {
   const [isSimulating, setIsSimulating] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(true);
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
+  const [isSpecsModalOpen, setIsSpecsModalOpen] = useState(false);
   const [metSeconds, setMetSeconds] = useState(15150); // Mission Elapsed Time in seconds
   const [briefing, setBriefing] = useState<AIBriefingResponse | null>(null);
   const [isLoadingBriefing, setIsLoadingBriefing] = useState(false);
@@ -290,6 +295,7 @@ export default function App() {
         onNextWaypoint={handleNextWaypoint}
         onReset={handleResetTraverse}
         onOpenJsonEditor={() => setIsJsonModalOpen(true)}
+        onOpenSpecsModal={() => setIsSpecsModalOpen(true)}
         soundEnabled={soundEnabled}
         onToggleSound={() => setSoundEnabled(!soundEnabled)}
         instrumentStatuses={instrumentStatuses}
@@ -338,6 +344,13 @@ export default function App() {
 
           {/* Quick Actions */}
           <div className="flex items-center gap-2">
+            <button
+              onClick={() => setIsSpecsModalOpen(true)}
+              className="flex items-center gap-1.5 px-3 py-1 rounded-sm bg-[#005288]/20 hover:bg-[#005288]/40 text-sky-300 hover:text-white border border-[#006BB3]/50 text-[11px] transition-colors"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-sky-400" />
+              <span>SYSTEM SPECS</span>
+            </button>
             <button
               onClick={handleExportMissionReport}
               className="flex items-center gap-1.5 px-3 py-1 rounded-sm bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 text-[11px] transition-colors"
@@ -460,6 +473,12 @@ export default function App() {
         onClose={() => setIsJsonModalOpen(false)}
         currentTelemetry={activeTelemetry}
         onIngestTelemetry={handleIngestTelemetry}
+      />
+
+      {/* System Specifications & Flight Manual Modal */}
+      <SystemSpecsModal
+        isOpen={isSpecsModalOpen}
+        onClose={() => setIsSpecsModalOpen(false)}
       />
     </div>
   );
